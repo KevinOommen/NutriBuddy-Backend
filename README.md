@@ -10,17 +10,22 @@ This project is a Django-based RESTful API that provides endpoints for managing 
    git clone https://github.com/your-username/django-rest-project.git
 
 2. Create a virtual environment:
+    ```bash
     cd django-rest-project
     python3 -m venv env
     source env/bin/activate
+    ```
 
 3. Install the dependencies
+    ```bash
    pip install -r requirements.txt
 
 4. Run database migrations
+    ```bash
    python manage.py migrate
 
 5. Start the development server:
+    ```bash
    python manage.py runserver
 
 6. Access the API in your browser at http://localhost:8000/chatbot_api/.
