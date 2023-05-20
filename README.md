@@ -31,10 +31,12 @@ This project is a Django-based RESTful API that provides endpoints for managing 
 6. Access the API in your browser at http://localhost:8000/chatbot_api/.
 
 ## API Endpoints
+No Authorizations are required for accessing below mentioned api endpoints
 1. /chatbot_api/food_search/:
     POST: Make a query if a food item matches your diet plan.
-    Request Body
+    
     ```json
+    Request Body
     {
     "food":"<food-item-name>",
     "diet":"<diet-plan-name>"
@@ -50,8 +52,9 @@ This project is a Django-based RESTful API that provides endpoints for managing 
 2. /chatbot_api/diet_selector/:
 
     POST: Suggest a diet plan according to user requirements.
-    Request Body
+    
     ```json
+    Request Body
     {
         "age": "",
         "sex": "",
