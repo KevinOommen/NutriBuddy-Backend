@@ -33,6 +33,7 @@ This project is a Django-based RESTful API that provides endpoints for managing 
 ## API Endpoints
 No Authorizations are required for accessing below mentioned api endpoints
 1. /chatbot_api/food_search/:
+
     POST: Make a query if a food item matches your diet plan.<br>Request Body
     
     ```json
