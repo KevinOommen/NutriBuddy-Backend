@@ -4,7 +4,7 @@ import os
 from langchain.prompts import PromptTemplate
 from langchain.llms import OpenAI
 from langchain.chains import LLMChain
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 class ChatBot_FoodSearch:
 
