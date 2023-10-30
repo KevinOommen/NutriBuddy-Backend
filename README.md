@@ -1,6 +1,6 @@
 # Django REST Project
 
-This project is a Django-based RESTful API that provides endpoints for managing a collection of items.
+This project is a Django-based RESTful API that provides endpoints for querying a chatbot powered by GPT-3.5 to answer questions related to healthy foods.
 
 ## Setup and Installation
 
